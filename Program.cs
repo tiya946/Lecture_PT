@@ -88,15 +88,15 @@ namespace Lecture_PT
 
 
             // for tables of 1 to 10 :
-            //for (int i = 1; i <= 10; i++)
-            //{
-            //    for (int j = 1; j <= 10; j++)
-            //    {
-            //        int ans = (i*j);
-            //        Console.WriteLine($" {i} * {j} = " + ans);
-            //    }
-            //}
-            //Console.WriteLine();
+            for (int i = 1; i <= 10; i++)
+            {
+               for (int j = 1; j <= 10; j++)
+               {
+                   int ans = (i*j);
+                   Console.WriteLine($" {i} * {j} = " + ans);
+               }
+            }
+            Console.WriteLine();
 
 
 
